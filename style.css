@@ -1,6 +1,9 @@
 body {
     background-color: white;
 }
+.blue-gradient {
+    background: linear-gradient(180deg, #133C68 0%, #0E4D9F 100%);
+}
 .bg-desktop {
     height: 600px;
     object-fit: cover;
@@ -18,8 +21,8 @@ body {
     }
 }
 .btn-models .btn-primary {
-    transform: translateX(-50%);
     left: 50%;
+    transform: translateX(-50%);
 }
 .ils-en-parlent {
     display: none;
@@ -32,8 +35,8 @@ body {
 .ils-en-parlent p {
     color: white;
     font-size: 16px;
-    line-height: 24px;
     font-weight: bold;
+    line-height: 24px;
     margin: 20px 0 0;
 }
 @media only screen and (min-width: 1024px) {
@@ -62,7 +65,4 @@ body {
 }
 .block-landing .ils-en-parlent img {
     width: unset;
-}
-.blue-gradient {
-    background: linear-gradient(180deg, #133C68 0%, #0E4D9F 100%);
 }
